@@ -10,12 +10,16 @@ class MealsView
   end
 
   def confirmation
-    puts "the action has been made"
+    puts "Action well made :)"
   end
 
   def ask_meal_name
+    puts "Name?"
+    return gets.chomp
   end
 
   def ask_meal_price
+    puts "Price?"
+    return gets.chomp
   end
 end
